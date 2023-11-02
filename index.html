@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Image Filtering</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 id="heading">Filtering the Image</h2>
+        <button class="dark" id="dark" onclick="darkTheme()">Dark Theme</button>
+
+        <div class="menu">
+
+            <a href="" class="btn" data-filter="all">All</a>
+            <a href="" class="btn" data-filter="logo">Logo</a>
+            <a href="" class="btn" data-filter="web">Web</a>
+            <a href="" class="btn" data-filter="mobile">Mobile</a>
+
+        </div>
+
+        <div class="box" id="store-items">
+
+            <!-- logo -->
+            <div class="store-item logo">
+                <img src="image/logo1.png" class="store-img" alt="">
+            </div>
+
+            <div class="store-item logo">
+                <img src="image/logo2.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item logo">
+                <img src="image/logo3.png" class="store-img" alt="">
+            </div>
+            <!-- logo -->
+
+
+            <!-- web -->
+            <div class="store-item web">
+                <img src="image/web1.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item web">
+                <img src="image/web2.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item web">
+                <img src="image/web3.jpg" class="store-img" alt="">
+            </div>
+            <!-- web -->
+
+
+            <!-- mobile -->
+
+            <div class="store-item mobile">
+                <img src="image/mob1.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item mobile">
+                <img src="image/mob2.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item mobile">
+                <img src="image/mob3.jpg" class="store-img" alt="">
+            </div>
+            <!-- mobile -->
+        </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
